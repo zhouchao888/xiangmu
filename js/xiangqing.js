@@ -7,7 +7,7 @@
 	      var  id=arr.split("=")[1];
 	      $.ajax({
 	      	type:"get",
-	      	url:"http://127.0.0.1/wodxiangmu/FSshopping/json/data.json",
+	      	url:"json/data.json",
 	      	success:function(res){
 	      		var  html=""; 
 	      		  for(var i in res.list){
